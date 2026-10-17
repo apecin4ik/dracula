@@ -1,0 +1,14 @@
+name: DraculaTower
+main: me.dracula.DraculaPlugin
+version: 1.0.0
+api-version: '1.20'
+depend: [WorldEdit]
+description: Ивент "Башня Дракулы"
+commands:
+  dracula:
+    description: Башня Дракулы
+    usage: /dracula
+permissions:
+  dracula.admin:
+    description: Админ-команды Башни Дракулы
+    default: op
